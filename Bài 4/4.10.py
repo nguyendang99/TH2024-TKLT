@@ -2,6 +2,7 @@ print("DANG NGUYEN DANG")
 print("MSSV: 235752021610010")
 print("#############################")
 ######################################
-S = input('Nhap chuoi:')
-for ch in S:
-    print(ch)
+ds = [1,2,3,4,5,6,7,8,9]
+x = ds[1:-1]
+for c in x:
+    print(c)
