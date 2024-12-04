@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tinhdientichhinhtron"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 10:53:31 SA"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtVENSTkEwQUs7MjAyNC0wOS0yNTswNDozOTo0NiBDSDsyNjY1"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtVENSTkEwQUs7MjAyNC0xMC0wMjsxMDo1MzozMSBTQTsyOzI3NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;nguyen dang&quot;" newline="True"/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;input the radius of the circle&quot;" newline="True"/>
+            <input variable="x"/>
+            <comment text="The following will call the Circle function using the value the user entered.&#13;&#10;Notice that this variable is called'x'while the function uses 'Radius'.The value of'x' is passed to the function."/>
+            <output expression="&quot;Area is&quot;&amp; Circle(x)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

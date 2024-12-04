@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="nhapinstamgiac"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 10:52:10 SA"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtVENSTkEwQUs7MjAyNC0xMC0wMjsxMDo0MDoxNiBTQTsyNjQ3"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtVENSTkEwQUs7MjAyNC0xMC0wMjsxMDo1MjoxMCBTQTsyOzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;nguyen dang&quot;" newline="True"/>
+            <declare name="a, h, s" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;nhap h&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="s" expression="(a*h)/2"/>
+            <output expression="&quot;dien tich hinh tam giac la&quot;" newline="True"/>
+            <output expression="s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
