@@ -2,9 +2,11 @@ print("DANG NGUYEN DANG")
 print("MSSV: 235752021610010")
 print("#############################")
 ######################################
-def sum(a,b):
-    print("sum="+str(a+b))
-    #tinh tong 2 so 4,5
-    sum(4,5)
-    #tinh tong 2 so 3,7
-    sum(3,7)
+a="Hello Guy1"
+def say():
+    global a
+    a= " Vinh University"
+    print(a)
+    say()
+    print(a)
+    
